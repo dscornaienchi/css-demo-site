@@ -2,33 +2,23 @@
 
 ## Description
 
-The purpose of this project was to modify the existing codebase of a website to ensure it meets accessibility standards to effectively optimize for search engines. 
+The purpose of this challenge was to modify the existing codebase of a website to ensure it meets accessibility standards to effectively optimize for search engines.
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-GIVEN a webpage meets accessibility standards
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+I reviewed the HTML codebase and the CSS style sheet,making changes such as reordering the code for a more logical flow, creating more specific CSS selectors to remove duplicative code, and replacing non-semantic elements such as <div> and <span> in the HTML codebase. I also added alternative attributes for the photos on the website. 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To get the dev environment running in VS code, I went through the following steps: 
+1. Created a new repository, naming it "css-demo-site", and cloned it to my Mac by pasting the SSH key into my command terminal and using the "git clone" function
+2. Cloned https://github.com/coding-boot-camp/urban-octo-telegram by pasting the SSH key into my command terminal and using "git clone"
+3. After cloning, I copied the assets into my own repo that I already created. 
+4. While working and once completed, I used the git add, git commit, and git push functions to make sure my local changes on my Mac were uploaded to git hub properly
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The code creates a website, which can be found at the link here: 
+
+The screenshot below shows what you should see when clicking the link
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -36,11 +26,4 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
