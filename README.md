@@ -20,10 +20,6 @@ The code creates a website, which can be found at the link here:
 
 The screenshot below shows what you should see when clicking the link
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![Screenshot of Website](assets/images/READMESCREENSHOT.jpg)
-    ```
+[Screenshot of Website](assets/images/READMESCREENSHOT.jpg)
 
 
